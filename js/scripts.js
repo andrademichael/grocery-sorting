@@ -10,9 +10,17 @@ $(document).ready(function(){
 
     var items = [input1, input2, input3, input4, input5];
 
-    console.log(items);
-
     $("#inputList").hide();
-    $("#outputList").show();
+    // $("#outputList").show();
+    items.sort();
+    for
+    (var i = 1; i < 5; i++) {
+      $(items[i].toUpperCase);
+}
+    for
+    (var i = 1; i < 5; i++) {
+      $("ul").append("<li>" + items[i] + "</li>");
+}
+    console.log(items);
   });
 });
